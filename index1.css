@@ -1,0 +1,33 @@
+.header{
+    
+        text-align: center;
+        padding: 70px 0;
+        border: 3px solid green;
+        
+}
+* {
+    scrollbar-width: thin;
+    
+    scrollbar-color: #37262a #333;
+}
+.main-header-wrapp.full {
+    background: transparent;
+    box-shadow: none;
+}
+.op-grid-three {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+    
+img{
+    height: 100px;
+    width: 100px;
+    
+
+}
+body{
+    background-color: slategray;    
+}
