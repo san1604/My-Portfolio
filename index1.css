@@ -1,16 +1,17 @@
 .header{
     
     text-align: right;
-    /* padding: 70px 0; */
+    padding: 70px 0;
     /* border: 3px solid green; */
-    /* background-color:darkslategray; */
-    /* display: -ms-grid; */
-    display: grid;
+    /* background-color: darkslategray; */
+    display: grid
+;
     /* -ms-grid-columns: auto auto auto; */
-    grid-template-columns:auto auto;
-    
+    grid-template-columns: auto auto;
     align-items: center;
     /* text-indent: 100%; */
+    font-size: x-large;
+    padding-top: 23px;
 
 }
 #background{
