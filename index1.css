@@ -96,10 +96,16 @@
   align-items: flex-start;
   background-image: url(educationbackground.jpg);
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 70vh;
   background-size: 100vw 70vh;
 }
-
+.skills{
+  font-family: 'Segoe UI', sans-serif;
+            background: #f0f0f0;
+            padding: 50px;
+            height: 100vh;
+            background-size: 100vw 70vh;
+}
 * {
   scrollbar-width: thin;
   scrollbar-color: #ffd4de #333;
