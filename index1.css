@@ -99,13 +99,167 @@
   height: 70vh;
   background-size: 100vw 70vh;
 }
-.skills{
-  font-family: 'Segoe UI', sans-serif;
-            background: #f0f0f0;
-            padding: 50px;
-            height: 100vh;
-            background-size: 100vw 70vh;
+.skills {
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
 }
+
+.skills h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.skil ls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.skill-card {
+  background: #333;
+  padding: 20px;
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.tools {
+  padding: 60px 20px;
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+}
+
+.tools h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.tool-card {
+  background: #ffffff;
+  color: #4CAF50;
+  padding: 20px;
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+/* Reviews Section */
+.reviews {
+  padding: 60px 20px;
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Projects Section */
+.projects {
+  padding: 60px 20px;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+.project-card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+/* Contact Section */
+.contactinfo {
+  padding: 60px 20px;
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+}
+
+.contactinfo h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-form button {
+  background: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #45a049;
+}
+
+/* Footer */
+.footer {
+  background: #000;
+  color: #aaa;
+  padding: 20px;
+  text-align: center;
+}
+
 * {
   scrollbar-width: thin;
   scrollbar-color: #ffd4de #333;
