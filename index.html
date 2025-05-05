@@ -1,10 +1,207 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Portfolio</title>
-    </head>
-    <body>
-        
-        <h1 style="text-align: center;">My Portfolio is coming soon, please wait!</h1>
-    </body>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- 
+        Header - 
+        Headline
+        About
+        Education
+        Skills
+        Tools
+        Experience
+        Reviewes
+        Projects
+        Contact info
+        footer
+        -->
+
+    <!-- We'll build header here -->
+    <div id="background">
+        <div class="header">
+            <img src="logo1.png" alt="Sandeep Solanki" height="3cm" width="6cm"
+                style="border-radius: 8px; margin: 12px; height: 4cm; width: 4cm;" />
+            <div style="width: 100%;">
+                <a href="#about"
+                    style="text-decoration: none; margin-right: 5px; margin-left: 5px; color: honeydew; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">About</a>
+                <a href="#education"
+                    style="text-decoration: none; margin-right: 5px; margin-left: 5px; color: honeydew;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Education</a>
+                <a href="#skills"
+                    style="text-decoration: none; margin-right: 5px; margin-left: 5px;color: honeydew;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Skills</a>
+                <a href="#tools"
+                    style="text-decoration: none; margin-right: 5px; margin-left: 5px;color: honeydew;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Tools</a>
+                <a href="#reviews"
+                    style="text-decoration: none; margin-right: 5px; margin-left: 5px;color: honeydew;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Reviewes</a>
+                <a href="#projects"
+                    style="text-decoration: none; margin-right: 5px; margin-left: 5px;color: honeydew;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Projects</a>
+                <a href="#contact me" class="btn"
+                    style="text-decoration: none; margin-right: 5px; margin-left: 5px;color: honeydew;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Contact
+                    Me</a>
+            </div>
+        </div>
+
+        <div class="headline">
+
+            <h1 style="    text-align: left;
+             padding-top: 50px; 
+            color: orange;
+            font-size: 65px;
+            
+            ">
+                I am Sandeep Solanki</h1>
+            <h2 style="    text-align: left;
+            padding: 10px 0;
+            color: white;
+            font-size: larger;">I am a Software developer</h2>
+            <h3 style="text-align: left;
+            padding-bottom: 190px;
+            color: #4CAF50;
+            font-size: xx-large;">
+                Passionate about creating innovative websites
+            </h3>
+
+        </div>
+    </div>
+
+    <div class="about" id="about">
+
+
+        <h1 style="text-align: center;
+                color: burlywood;
+                padding-left: 335px;
+                padding-top: 26px;
+            ">About me</h1>
+        <p style="    padding-top: 20px;
+               padding-left: 525px;
+               padding-right: 30px;
+               font-family: 'Courier New', Courier, monospace;
+               height: 0px;
+               color: white;
+               font-size: larger;"> Hey there! I'm Sandeep Solanki, a passionate Front-End Developer who loves turning
+            ideas into beautiful, responsive, and interactive web experiences. With expertise in Angular, React.js,
+            HTML, CSS, and TypeScript, I thrive on building sleek and user-friendly interfaces that make an impact.
+
+            I hold a Master’s in Computer Applications (MCA) from NIT Raipur and have worked on various projects, from
+            crafting a Scientific Calculator with pure JavaScript to developing a Movie Recommendation System powered by
+            Python.
+
+            I’m always eager to learn and push the boundaries of web development. Whether it's solving DSA problems, or
+            optimizing performance, I strive to create seamless and engaging digital experiences.
+
+            When I'm not coding, you’ll find me geeking out over new tech, refining my design skills, or brainstorming
+            my next exciting project. Let’s connect and build something awesome together! 🚀</p>
+        <img src="aboutme.png" alt="Sandeep Solanki" height="200px" width="200px" style="height: 400px;
+            width: 350px;
+            margin-left: 100px;
+            /* padding: 100px; */
+            border-radius: 8px;
+            margin-left: 100px;
+            margin-top: 8px;" />
+    </div>
+    <div class="education" id="education" style="font-family: 'Segoe UI', sans-serif;
+    background: #f0f0f0;
+    padding: 50px; ">
+        <div class="education-column">
+            <h2>EDUCATION</h2>
+
+            <div class="education-box">
+                <span class="date">2018-2021</span>
+                <h3>BSc (CS)</h3>
+                <p>Govt. Nirbhay Singh Patel New Science College, Indore</p>
+            </div>
+
+
+            <div class="education-box">
+                <span class="date">2021-2024</span>
+                <h3>MCA</h3>
+                <p>National Institute of Technology, Raipur</p>
+            </div>
+        </div>
+
+        <div class="experience-column">
+            <h2>EXPERIENCE</h2>
+
+            <div class="education-box">
+                <span class="date">Feb 2025-present</span>
+                <h3>Typing Expert</h3>
+                <p>Uraan Softskills PVT. Ltd.</p>
+            </div>
+            <div class="education-box">
+                <span class="date">Feb 2025-present</span>
+                <h3>Frontend Developer</h3>
+                <p>Uraan Softskills PVT. Ltd.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-card">🌐 HTML5</div>
+            <div class="skill-card">🎨 CSS3</div>
+            <div class="skill-card">⚛️ React.js</div>
+            <div class="skill-card">🖥️ JavaScript</div>
+            <div class="skill-card">🛠️ Redux</div>
+            <div class="skill-card">📚 MySQL</div>
+            <div class="skill-card">📈 Data Structures</div>
+            <div class="skill-card">💻 Java, C++, C</div>
+            <div class="skill-card">🐧 Ubuntu, Windows</div>
+        </div>
+    </section>
+    <div id="tools" class="tools">
+        <h2>Tools I Use</h2>
+        <div class="tools-grid">
+            <div class="tool-card">🐙 Git</div>
+            <div class="tool-card">📂 GitHub</div>
+            <div class="tool-card">🛠️ VS Code</div>
+            <div class="tool-card">💬 Slack</div>
+            <div class="tool-card">📋 Jira</div>
+            <div class="tool-card">🛢️ MySQL Workbench</div>
+        </div>
+    </div>
+    <div id="reviews" class="reviews">
+        <h2>Reviews</h2>
+        <p>Coming soon... 👀</p>
+    </div>
+    <div id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Built with HTML, CSS, JavaScript</p>
+            <a href="#">GitHub</a> | <a href="#">Live Demo</a>
+        </div>
+        <div class="project-card">
+            <h3>To-do Application</h3>
+            <p>React.js based To-do list app</p>
+        </div>
+        <div class="project-card">
+            <h3>Tic-Tac-Toe Game</h3>
+            <p>JavaScript Game</p>
+        </div>
+        <div class="project-card">
+            <h3>Movie Recommendation System</h3>
+            <p>Python ML Project</p>
+        </div>
+    </div>
+    </div>
+    <div id="contact me" class="contactinfo">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Let's Connect 🚀</button>
+        </form>
+        <p>📍 Location: India 🇮🇳<br><a href="linkedin.com/in/sandeep-s-746866213" target="_blank">🔗 LinkedIn</a> <br>📂 GitHub: https://github.com/san1604</p>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 Sandeep Solanki. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
 </html>
