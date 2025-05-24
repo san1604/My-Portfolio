@@ -25,10 +25,15 @@
 }
 
 #about {
-  background: #1e1e2f;
-  color: white;
-  /* text-align: center; */
-  padding: 60px 20px;
+  background-image: url(aboutmebackground.jpg);
+  /* background-size: cover; */
+  /* background-size: 100% 100%; */
+  /* background-attachment: fixed; */
+  /* background-size: 150px; */
+  background-repeat: no-repeat;
+  /* height: 100%; */
+  height: 70vh;
+  background-size: 100vw 70vh;
 }
 
 .headline {
