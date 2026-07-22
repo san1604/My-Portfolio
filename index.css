@@ -1,13 +1,9 @@
 .header {
     text-align: right;
     padding: 70px 0;
-    /* border: 3px solid green; */
-    /* background-color: darkslategray; */
     display: grid;
-    /* -ms-grid-columns: auto auto auto; */
     grid-template-columns: auto auto;
     align-items: center;
-    /* text-indent: 100%; */
     font-size: x-large;
     padding-top: 23px;
   }
@@ -21,46 +17,94 @@ body {
   transition: transform 0.3s ease;
 }
   #background {
-    background-image: url(background.jpg);
-    /* background-size: cover; */
-    /* background-size: 100% 100%; */
-    /* background-attachment: fixed; */
-    /* background-size: 150px; */
+    background-image: linear-gradient(rgba(10, 8, 30, 0.72), rgba(10, 8, 30, 0.72)), url(background.jpg);
     background-repeat: no-repeat;
-    /* height: 100%; */
-    height: 100vh;
-    background-size: 100vw 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   
   #about {
-    /* background: #1e1e2f; */
     color: white;
-    /* text-align: center; */
-    padding: 60px 20px;
-    /* background-repeat: no-repeat; */
-    /* height: 100%; */
-    /* height: 70vh; */
-    /* background-size: 100vw 70vh; */
+    padding: 80px 20px;
     background: #1e1e2f;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: rgb(30, 30, 47);
+  }
+
+  .about-heading {
+    text-align: center;
+    color: burlywood;
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    margin-bottom: 40px;
+  }
+
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .about-photo {
+    width: 300px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    flex-shrink: 0;
+  }
+
+  .about-text {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 620px;
+    white-space: pre-line;
+  }
+
+  @media (max-width: 800px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .about-photo {
+      width: 240px;
+      height: 270px;
+    }
   }
 
   
   .headline {
-    font-size: 2em;
-    color: rgb(6, 6, 5);
     font-family: 'Courier New', Courier, monospace;
-    padding: 0 20px;
-    /* background-position: center; */
-    /* background-size: cover; */
+    padding: 60px 20px 100px;
+    max-width: 1100px;
+  }
+
+  .hero-title {
+    text-align: left;
+    color: #FFA200;
+    font-size: clamp(2.2rem, 6vw, 4rem);
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
+
+  .hero-subtitle {
+    text-align: left;
+    color: white;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    margin-bottom: 20px;
+  }
+
+  .hero-tagline {
+    text-align: left;
+    color: #4CAF50;
+    font-size: clamp(1.1rem, 2.5vw, 1.6rem);
   }
   
   .education-box {
@@ -84,14 +128,12 @@ body {
   
   .education-column {
     width: 45%;
-  
     position: relative;
     padding-left: 20px;
     border-left: #27ae60;
   }
   
   .experience-column {
-  
     width: 45%;
     position: relative;
     padding-left: 20px;
@@ -99,24 +141,23 @@ body {
   }
   
   .education {
-  line-height: 30px;
-  margin: auto;
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-  align-items: flex-start;
-  background-image: url(educationbackground.jpg);
-  background-repeat: no-repeat;
-  min-height: 70vh;
-  background-size: cover;
-  background-position: center;
-}
+    line-height: 30px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(educationbackground.jpg);
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+  }
   .skills {
     background: #1e1e2f;
     color: white;
     text-align: center;
     padding: 60px 20px;
-    
   }
   
   .skills h2 {
@@ -288,4 +329,3 @@ body {
   .logo img {
     height: 50px;
   }
-  
